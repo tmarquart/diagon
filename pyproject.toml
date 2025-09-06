@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diagon"
+version = "0.0.1"
+description = "Diagon: data validation, scenario management, and utilities"
+readme = "README.md"
+authors = [
+  { name = "Tim Marquart", email = "tmarquart@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+keywords = ["data", "validation", "utilities", "scenario"]
+
+[tool.setuptools.packages.find]
+where = ["."]
