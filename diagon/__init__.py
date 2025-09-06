@@ -1,7 +1,12 @@
 """Diagon: Data validation, scenario management, and utilities."""
 
-from .file_gate import gate_write, tk_prompt, tk_toast
+from .stopgate import StopConfig, pause_on_error, stop_until_resolved
 
-__all__ = ["gate_write", "tk_prompt", "tk_toast", "__version__"]
+__all__ = [
+    "StopConfig",
+    "pause_on_error",
+    "stop_until_resolved",
+    "__version__",
+]
 
 __version__ = "0.0.1"
